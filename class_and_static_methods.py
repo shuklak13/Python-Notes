@@ -19,17 +19,17 @@ a=A()
 
 # instance methods are called using an object
     # the first parameter refers to the object
-a.instance_foo() #<__main__.A object at 0x00000176F8DF2128>
 # use when you want to reference an object instance
+a.instance_foo() #<__main__.A object at 0x00000176F8DF2128>
 
 # class methods can be called using the class or an object
     # the first parameter refers to the class
+# use when you want to reference a class
 A.class_foo()  #<class '__main__.A'>
 a.class_foo()  #<class '__main__.A'>
-# use when you want to reference a class
 
 # static methods can be called using the class or an object
     # no parameter refers to the class or object
+# use when you want to group functions under a class's namespace
 A.static_foo() #hi
 a.static_foo() #hi
-# use when you want to group functions under a class's namespace

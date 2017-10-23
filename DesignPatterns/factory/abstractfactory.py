@@ -1,3 +1,4 @@
+# Character is a superclass
 class Character:
     def interactWith(self, obstacle): pass
 
@@ -10,6 +11,7 @@ class KungFuGuy(Character):
         print("KungFuGuy now battles a", obstacle.__class__.__name__)
 
 
+# Obstacle is a superclass
 class Obstacle: pass
 
 class Puzzle(Obstacle): pass
@@ -17,6 +19,7 @@ class Puzzle(Obstacle): pass
 class NastyMonster(Obstacle): pass
 
 
+# AbstractFactory creates objects subclassed from Character and Obstacle
 class AbstractFactory:
     def makeCharacter(self): pass
     def makeObstacle(self): pass
