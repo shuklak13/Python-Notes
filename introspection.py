@@ -41,7 +41,3 @@ from math import *
 user_func = input("type a function: f(x) = ")
 for x in range(1,10):
 	print("x = ", x , "\t\tf(x) = ", eval(user_func))
-
-
-# property()
-    #
