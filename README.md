@@ -49,7 +49,7 @@ You should write unit tests as you develop your code. Ideally, small functions s
 
 A comprehensive list of `unittest`'s assert functions can be found in `unittest_assert_functions/`
 
-## [setuptools](https://setuptools.readthedocs.io/en/latest/)
+## [setuptools](https://github.com/kennethreitz/setup.py)
 
 Use `setuptools` to package your module and make it easily installable. Create a `MANIFEST.in` file to specify what to include in your module.
 
