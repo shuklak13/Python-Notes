@@ -1,10 +1,16 @@
 # Python Workflow
 
-Below are a few tools you should *always* use when developing a Python module!
+## [Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)
 
-## Python Style Guide
+Because nobody likes ugly code.
 
-[Because nobody likes ugly code.](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)
+## [\_\_init__.py](http://mikegrouchy.com/blog/2012/05/be-pythonic-__init__py.html)
+
+Putting this file in the top directory of your module makes Python treat the entire directory as a package.
+
+Anything inside of the `__init__.py` file will be treated as part of the package. For example, if my package has a `file.py` file with a `File` class, and I wanted to import `File`, I would normally need to use `from package.file import File`. But if I put `from file import File` inside of `__init__.py`, I can import it just using `from package import File` instead!
+
+You can also make it easy for users to import multiple objects from your package at one with `from package import *` by putting `__all__ = ['submodule1', 'submodule2']` inside of your `__init__.py` file.
 
 ## virtualenv
 
