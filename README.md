@@ -2,6 +2,10 @@
 
 Below are a few tools you should *always* use when developing a Python module!
 
+## Python Style Guide
+
+[Because nobody likes ugly code.](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)
+
 ## virtualenv
 
 Always use `virtualenv env` in the topmost directory of your program. This creates a new instance of Python in a local directory named `env` and associates all installed packages with that version of Python. This helps prevent packages from different Python applications from interfering with each other. Avoid ever installing packages locally, except for virtualenv itself.
