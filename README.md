@@ -4,7 +4,7 @@
 
 Because nobody likes ugly code.
 
-## [\_\_init__.py](http://mikegrouchy.com/blog/2012/05/be-pythonic-__init__py.html)
+## [\_\_init__.py](https://timothybramlett.com/How_to_create_a_Python_Package_with___init__py.html)
 
 Putting this file in the top directory of your module makes Python treat the entire directory as a package.
 
