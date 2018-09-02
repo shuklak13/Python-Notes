@@ -1,5 +1,3 @@
-
-
 class Circle(object):
     def __init__(self):
         self.radius = None
