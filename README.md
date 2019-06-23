@@ -64,3 +64,7 @@ A comprehensive list of `unittest`'s assert functions can be found in `unittest_
 Use `setuptools` to package your module and make it easily installable. Create a `MANIFEST.in` file to specify what to include in your module.
 
 Afterwards, you can install the project in editable mode into a virtual environment using `pip install -e .`.
+
+## [Python Fire](https://github.com/google/python-fire)
+
+Handy tool for making CLI'.
