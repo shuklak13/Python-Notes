@@ -68,3 +68,5 @@ Afterwards, you can install the project in editable mode into a virtual environm
 ## [Python Fire](https://github.com/google/python-fire)
 
 Handy tool for making CLI tools.
+
+## [Automatic Documentation Tools](https://wiki.python.org/moin/DocumentationTools)
